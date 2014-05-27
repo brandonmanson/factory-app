@@ -20,6 +20,7 @@
 		0975374419354AA800124AB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0975374219354AA800124AB1 /* InfoPlist.strings */; };
 		0975374619354AA800124AB1 /* FactoryThingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0975374519354AA800124AB1 /* FactoryThingTests.m */; };
 		0975375019354ACA00124AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0975374F19354ACA00124AB1 /* Main.storyboard */; };
+		097537561935589A00124AB1 /* DismissSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 097537551935589A00124AB1 /* DismissSegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		0975374319354AA800124AB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0975374519354AA800124AB1 /* FactoryThingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryThingTests.m; sourceTree = "<group>"; };
 		0975374F19354ACA00124AB1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		097537541935589A00124AB1 /* DismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DismissSegue.h; path = ../DismissSegue.h; sourceTree = "<group>"; };
+		097537551935589A00124AB1 /* DismissSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DismissSegue.m; path = ../DismissSegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 		0975372619354AA700124AB1 /* FactoryThing */ = {
 			isa = PBXGroup;
 			children = (
+				097537541935589A00124AB1 /* DismissSegue.h */,
+				097537551935589A00124AB1 /* DismissSegue.m */,
 				0975374F19354ACA00124AB1 /* Main.storyboard */,
 				0975372F19354AA700124AB1 /* SBSAppDelegate.h */,
 				0975373019354AA700124AB1 /* SBSAppDelegate.m */,
@@ -245,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0975372D19354AA700124AB1 /* main.m in Sources */,
+				097537561935589A00124AB1 /* DismissSegue.m in Sources */,
 				0975373119354AA700124AB1 /* SBSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +448,7 @@
 				0975374B19354AA800124AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0975374C19354AA800124AB1 /* Build configuration list for PBXNativeTarget "FactoryThingTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +457,7 @@
 				0975374E19354AA800124AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
