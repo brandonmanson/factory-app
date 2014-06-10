@@ -21,6 +21,10 @@
 		0975374619354AA800124AB1 /* FactoryThingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0975374519354AA800124AB1 /* FactoryThingTests.m */; };
 		0975375019354ACA00124AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0975374F19354ACA00124AB1 /* Main.storyboard */; };
 		097537561935589A00124AB1 /* DismissSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 097537551935589A00124AB1 /* DismissSegue.m */; };
+		A94FC87A193E8828005BF239 /* SBSPeopleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FC879193E8828005BF239 /* SBSPeopleListViewController.m */; };
+		A94FC87D193E8F62005BF239 /* SBSPersonDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FC87C193E8F62005BF239 /* SBSPersonDetailsViewController.m */; };
+		A94FC889193E995B005BF239 /* SBSMemberDatastore.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FC888193E995B005BF239 /* SBSMemberDatastore.m */; };
+		A94FC88C193E99AA005BF239 /* SBSMember.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FC88B193E99AA005BF239 /* SBSMember.m */; };
 		A9725011193E16260082D689 /* intro1.png in Resources */ = {isa = PBXBuildFile; fileRef = A9724F94193E16260082D689 /* intro1.png */; };
 		A9725012193E16260082D689 /* intro2.png in Resources */ = {isa = PBXBuildFile; fileRef = A9724F95193E16260082D689 /* intro2.png */; };
 		A9725013193E16260082D689 /* intro3.png in Resources */ = {isa = PBXBuildFile; fileRef = A9724F96193E16260082D689 /* intro3.png */; };
@@ -170,6 +174,14 @@
 		0975374F19354ACA00124AB1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		097537541935589A00124AB1 /* DismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DismissSegue.h; path = ../DismissSegue.h; sourceTree = "<group>"; };
 		097537551935589A00124AB1 /* DismissSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DismissSegue.m; path = ../DismissSegue.m; sourceTree = "<group>"; };
+		A94FC878193E8828005BF239 /* SBSPeopleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSPeopleListViewController.h; sourceTree = "<group>"; };
+		A94FC879193E8828005BF239 /* SBSPeopleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSPeopleListViewController.m; sourceTree = "<group>"; };
+		A94FC87B193E8F62005BF239 /* SBSPersonDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSPersonDetailsViewController.h; sourceTree = "<group>"; };
+		A94FC87C193E8F62005BF239 /* SBSPersonDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSPersonDetailsViewController.m; sourceTree = "<group>"; };
+		A94FC887193E995B005BF239 /* SBSMemberDatastore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSMemberDatastore.h; sourceTree = "<group>"; };
+		A94FC888193E995B005BF239 /* SBSMemberDatastore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSMemberDatastore.m; sourceTree = "<group>"; };
+		A94FC88A193E99AA005BF239 /* SBSMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSMember.h; sourceTree = "<group>"; };
+		A94FC88B193E99AA005BF239 /* SBSMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSMember.m; sourceTree = "<group>"; };
 		A9724F94193E16260082D689 /* intro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro1.png; sourceTree = "<group>"; };
 		A9724F95193E16260082D689 /* intro2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro2.png; sourceTree = "<group>"; };
 		A9724F96193E16260082D689 /* intro3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro3.png; sourceTree = "<group>"; };
@@ -346,9 +358,14 @@
 		0975372619354AA700124AB1 /* FactoryThing */ = {
 			isa = PBXGroup;
 			children = (
+				A94FC883193E9866005BF239 /* Model */,
 				097537541935589A00124AB1 /* DismissSegue.h */,
 				097537551935589A00124AB1 /* DismissSegue.m */,
 				0975374F19354ACA00124AB1 /* Main.storyboard */,
+				A94FC878193E8828005BF239 /* SBSPeopleListViewController.h */,
+				A94FC879193E8828005BF239 /* SBSPeopleListViewController.m */,
+				A94FC87B193E8F62005BF239 /* SBSPersonDetailsViewController.h */,
+				A94FC87C193E8F62005BF239 /* SBSPersonDetailsViewController.m */,
 				0975372F19354AA700124AB1 /* SBSAppDelegate.h */,
 				0975373019354AA700124AB1 /* SBSAppDelegate.m */,
 				0975373219354AA700124AB1 /* Images.xcassets */,
@@ -385,6 +402,17 @@
 				0975374219354AA800124AB1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A94FC883193E9866005BF239 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A94FC887193E995B005BF239 /* SBSMemberDatastore.h */,
+				A94FC888193E995B005BF239 /* SBSMemberDatastore.m */,
+				A94FC88A193E99AA005BF239 /* SBSMember.h */,
+				A94FC88B193E99AA005BF239 /* SBSMember.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		A9724F92193E16260082D689 /* Assets */ = {
@@ -829,8 +857,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A94FC87A193E8828005BF239 /* SBSPeopleListViewController.m in Sources */,
+				A94FC889193E995B005BF239 /* SBSMemberDatastore.m in Sources */,
+				A94FC87D193E8F62005BF239 /* SBSPersonDetailsViewController.m in Sources */,
 				0975372D19354AA700124AB1 /* main.m in Sources */,
 				097537561935589A00124AB1 /* DismissSegue.m in Sources */,
+				A94FC88C193E99AA005BF239 /* SBSMember.m in Sources */,
 				0975373119354AA700124AB1 /* SBSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
