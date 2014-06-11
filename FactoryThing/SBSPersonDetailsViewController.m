@@ -29,6 +29,7 @@
     [super viewDidLoad];
     
     self.nameLabel.text = self.person.name;
+    self.portrait.image = self.person.pic;
 }
 
 - (void)didReceiveMemoryWarning

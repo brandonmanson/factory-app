@@ -129,12 +129,17 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="pic" translatesAutoresizingMaskIntoConstraints="NO" id="d9u-b3-l0r">
+                                <rect key="frame" x="20" y="136" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="n3o-kW-Ocz"/>
                     <connections>
                         <outlet property="nameLabel" destination="XzY-FA-h8E" id="9HR-dP-ooe"/>
+                        <outlet property="portrait" destination="d9u-b3-l0r" id="vKw-9C-v0x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QSr-CS-6zN" userLabel="First Responder" sceneMemberID="firstResponder"/>
