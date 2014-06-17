@@ -63,6 +63,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"memberCell" forIndexPath:indexPath];
     SBSMember *member = [datastore recordAtIndex:indexPath.row];
     cell.textLabel.text = member.name;
+    cell.imageView.image = member.pic;
     return cell;
 }
 
