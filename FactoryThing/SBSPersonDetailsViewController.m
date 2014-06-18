@@ -30,6 +30,9 @@
     
     self.nameLabel.text = self.person.name;
     self.portrait.image = self.person.pic;
+    self.bioLabel.text = self.person.name;
+    self.nameBio.text = self.person.bio;
+    self.nameTwitter.text = self.person.twitter;
 }
 
 - (void)didReceiveMemoryWarning
