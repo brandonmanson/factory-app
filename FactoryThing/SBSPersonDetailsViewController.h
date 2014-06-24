@@ -18,5 +18,7 @@
 @property IBOutlet UIImageView *portrait;
 @property IBOutlet UITextView *nameBio;
 @property IBOutlet UILabel *nameTwitter;
+@property IBOutlet UILabel *nameFacebook;
+@property IBOutlet UILabel *nameEmail;
 
 @end

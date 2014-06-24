@@ -33,6 +33,8 @@
     self.bioLabel.text = self.person.name;
     self.nameBio.text = self.person.bio;
     self.nameTwitter.text = self.person.twitter;
+    self.nameFacebook.text = self.person.fb;
+    self.nameEmail.text = self.person.email;
 }
 
 - (void)didReceiveMemoryWarning
