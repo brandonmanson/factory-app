@@ -21,6 +21,8 @@
 		0975374619354AA800124AB1 /* FactoryThingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0975374519354AA800124AB1 /* FactoryThingTests.m */; };
 		0975375019354ACA00124AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0975374F19354ACA00124AB1 /* Main.storyboard */; };
 		097537561935589A00124AB1 /* DismissSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 097537551935589A00124AB1 /* DismissSegue.m */; };
+		A924E42319510B06002BBE96 /* SBSSpaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A924E42219510B06002BBE96 /* SBSSpaceViewController.m */; };
+		A9351F6D1957BD7800A09264 /* SBSSpaceImages.m in Sources */ = {isa = PBXBuildFile; fileRef = A9351F6C1957BD7800A09264 /* SBSSpaceImages.m */; };
 		A94FC87A193E8828005BF239 /* SBSPeopleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FC879193E8828005BF239 /* SBSPeopleListViewController.m */; };
 		A94FC87D193E8F62005BF239 /* SBSPersonDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FC87C193E8F62005BF239 /* SBSPersonDetailsViewController.m */; };
 		A94FC889193E995B005BF239 /* SBSMemberDatastore.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FC888193E995B005BF239 /* SBSMemberDatastore.m */; };
@@ -174,6 +176,10 @@
 		0975374F19354ACA00124AB1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		097537541935589A00124AB1 /* DismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DismissSegue.h; path = ../DismissSegue.h; sourceTree = "<group>"; };
 		097537551935589A00124AB1 /* DismissSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DismissSegue.m; path = ../DismissSegue.m; sourceTree = "<group>"; };
+		A924E42119510B06002BBE96 /* SBSSpaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBSSpaceViewController.h; path = ../SBSSpaceViewController.h; sourceTree = "<group>"; };
+		A924E42219510B06002BBE96 /* SBSSpaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBSSpaceViewController.m; path = ../SBSSpaceViewController.m; sourceTree = "<group>"; };
+		A9351F6B1957BD7800A09264 /* SBSSpaceImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBSSpaceImages.h; path = ../SBSSpaceImages.h; sourceTree = "<group>"; };
+		A9351F6C1957BD7800A09264 /* SBSSpaceImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBSSpaceImages.m; path = ../SBSSpaceImages.m; sourceTree = "<group>"; };
 		A94FC878193E8828005BF239 /* SBSPeopleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSPeopleListViewController.h; sourceTree = "<group>"; };
 		A94FC879193E8828005BF239 /* SBSPeopleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSPeopleListViewController.m; sourceTree = "<group>"; };
 		A94FC87B193E8F62005BF239 /* SBSPersonDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSPersonDetailsViewController.h; sourceTree = "<group>"; };
@@ -362,6 +368,8 @@
 				097537541935589A00124AB1 /* DismissSegue.h */,
 				097537551935589A00124AB1 /* DismissSegue.m */,
 				0975374F19354ACA00124AB1 /* Main.storyboard */,
+				A924E42119510B06002BBE96 /* SBSSpaceViewController.h */,
+				A924E42219510B06002BBE96 /* SBSSpaceViewController.m */,
 				A94FC878193E8828005BF239 /* SBSPeopleListViewController.h */,
 				A94FC879193E8828005BF239 /* SBSPeopleListViewController.m */,
 				A94FC87B193E8F62005BF239 /* SBSPersonDetailsViewController.h */,
@@ -407,6 +415,8 @@
 		A94FC883193E9866005BF239 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A9351F6B1957BD7800A09264 /* SBSSpaceImages.h */,
+				A9351F6C1957BD7800A09264 /* SBSSpaceImages.m */,
 				A94FC887193E995B005BF239 /* SBSMemberDatastore.h */,
 				A94FC888193E995B005BF239 /* SBSMemberDatastore.m */,
 				A94FC88A193E99AA005BF239 /* SBSMember.h */,
@@ -862,7 +872,9 @@
 				A94FC87D193E8F62005BF239 /* SBSPersonDetailsViewController.m in Sources */,
 				0975372D19354AA700124AB1 /* main.m in Sources */,
 				097537561935589A00124AB1 /* DismissSegue.m in Sources */,
+				A9351F6D1957BD7800A09264 /* SBSSpaceImages.m in Sources */,
 				A94FC88C193E99AA005BF239 /* SBSMember.m in Sources */,
+				A924E42319510B06002BBE96 /* SBSSpaceViewController.m in Sources */,
 				0975373119354AA700124AB1 /* SBSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

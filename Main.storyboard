@@ -16,18 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" tag="-1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kitchen.png" translatesAutoresizingMaskIntoConstraints="NO" id="Eug-aR-Hgx">
+                            <imageView userInteractionEnabled="NO" tag="-1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eug-aR-Hgx">
                                 <rect key="frame" x="0.0" y="67" width="320" height="501"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OPEN WORKSPACE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L84-Vm-hke">
-                                <rect key="frame" x="81" y="409" width="159" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OPEN WORKSPACE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L84-Vm-hke">
+                                <rect key="frame" x="61" y="409" width="187" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kitchen@2x-18.png" translatesAutoresizingMaskIntoConstraints="NO" id="cAO-H3-QlJ">
-                                <rect key="frame" x="40" y="97" width="240" height="304"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cAO-H3-QlJ">
+                                <rect key="frame" x="34" y="97" width="252" height="304"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="DpC-bD-woj" appends="YES" id="KRW-bP-gFm"/>
+                                </connections>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0nx-RW-YfN">
+                                <rect key="frame" x="8" y="97" width="23" height="304"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zub-Q9-nYk">
+                                <rect key="frame" x="289" y="97" width="23" height="304"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -36,10 +49,17 @@
                     <navigationItem key="navigationItem" title="SPACE" id="LKY-9Q-p14">
                         <barButtonItem key="leftBarButtonItem" id="6bD-M2-E2V"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="spaceBgImage" destination="Eug-aR-Hgx" id="ib5-WZ-3Fm"/>
+                        <outlet property="spaceImage" destination="cAO-H3-QlJ" id="ZvI-BB-dVi"/>
+                        <outlet property="spaceImageLead" destination="0nx-RW-YfN" id="sbJ-sa-6NQ"/>
+                        <outlet property="spaceImageTrail" destination="Zub-Q9-nYk" id="Swa-ym-YnP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sDj-hN-9v1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="DpC-bD-woj"/>
             </objects>
-            <point key="canvasLocation" x="1040" y="-338"/>
+            <point key="canvasLocation" x="1010" y="-314"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GLV-f8-I5b">
@@ -230,10 +250,6 @@
             <point key="canvasLocation" x="-162" y="-309"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="kitchen.png" width="640" height="1013"/>
-        <image name="kitchen@2x-18.png" width="1061" height="1401"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
