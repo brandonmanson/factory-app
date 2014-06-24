@@ -14,6 +14,9 @@
 
 @property (nonatomic) SBSMember *person;
 @property IBOutlet UILabel *nameLabel;
+@property IBOutlet UILabel *bioLabel;
 @property IBOutlet UIImageView *portrait;
+@property IBOutlet UITextView *nameBio;
+@property IBOutlet UILabel *nameTwitter;
 
 @end
